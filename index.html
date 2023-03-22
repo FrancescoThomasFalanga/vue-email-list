@@ -17,11 +17,11 @@
 
         <div class="card">
             <h1>Email List</h1>
-            <div v-for="email in emails" class="email-element">
+            <div v-for="email in emails" class="email-element" v-if="emails.length == 10">
                 
                 - {{email}}
                 
-            </div>
+            </div>   
             
         </div>
 
