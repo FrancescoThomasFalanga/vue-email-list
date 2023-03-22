@@ -15,10 +15,14 @@
 
     <div id="app">
 
-        <div v-for="email in emails">
-
-            {{email}}
-
+        <div class="card">
+            <h1>Email List</h1>
+            <div v-for="email in emails" class="email-element">
+                
+                - {{email}}
+                
+            </div>
+            
         </div>
 
     </div>

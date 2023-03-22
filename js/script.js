@@ -22,6 +22,8 @@ createApp({
 
       }
 
+      console.log(this.emails)
+
   },
 
   methods: {
